@@ -1,3 +1,6 @@
+This package has forked from github.com/alexedwards/argon2id
+
+----------------------------------------
 # Argon2id
 
 This package provides a convenience wrapper around Go's [argon2](https://pkg.go.dev/golang.org/x/crypto/argon2?tab=doc) implementation, making it simpler to securely hash and verify passwords using Argon2.
@@ -12,7 +15,7 @@ package main
 import (
 	"log"
 
-	"github.com/alexedwards/argon2id"
+	"github.com/fastfail/argon2id"
 )
 
 func main() {
